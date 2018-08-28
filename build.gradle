@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'ProjectOnAppium'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'io.appium', name: 'java-client', version: '6.1.0'
+
+    compile 'junit:junit:4.12'
+
+    compile 'org.jetbrains:annotations:16.0.2'
+
+}
